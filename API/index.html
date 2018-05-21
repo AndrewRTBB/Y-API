@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="API">
+  <title>API Search</title>
+ </head>
+<body>
+  <header>
+      <h1 class= "w100 text-center"><a href=index.html>YouTube Search Engine</a></h1>  
+  </header>
+  <div class="container">
+      <div class="col-nd-6 col-nd-offset-3">
+          <form action ="#">
+              <p><input type = "text" id = "query" placeholder= "Search To Your Heart's Content" class= "form-control"></p>
+              <p><input type = "submit" value = "Search" class= "form-control btn btn-primary w100"></p>
+          </form>
+          <div id="search-results"></div>
+      </div>
+  </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="app/app.js"></script> 
+  <script src="https://apis.google.com/js/client.js?onload=init"></script>
+</body>
+</html>
